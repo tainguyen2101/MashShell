@@ -36,23 +36,23 @@ The mash shell is not responsible for finding the command file to run.
 * “ls –l”                provides a long directory listing
 
 ### Example run
-$ ./mash
-mash-1>grep -c the
-mash-2>md5sum
-mash-3>wc -l
-file>googlebig.txt
-First process finished...
-Second process finished...
-Third process finished...
------CMD 1: grep -c the--------------------------------------------------------- 
-15697
-Result took:314ms
------CMD 2: md5sum-------------------------------------------------------------- 
-0362a7bf9035eba363462ea484bb43a6 googlebig.txt
-Result took:2664ms
------CMD 3: wc -l--------------------------------------------------------------- 
-76860248 googlebig.txt
-Result took:803ms 
-
-Children process IDs: 12287 12289 12288.
-Total elapsed time:2664ms
+* $ ./mash
+* mash-1>grep -c the
+* mash-2>md5sum
+* mash-3>wc -l
+* file>googlebig.txt
+* First process finished...
+* Second process finished...
+* Third process finished...
+* -----CMD 1: grep -c the--------------------------------------------------------- 
+* 15697
+* Result took:314ms
+* -----CMD 2: md5sum-------------------------------------------------------------- 
+* 0362a7bf9035eba363462ea484bb43a6 googlebig.txt
+* Result took:2664ms
+* -----CMD 3: wc -l--------------------------------------------------------------- 
+* 76860248 googlebig.txt
+* Result took:803ms 
+* --------------------------------------------------------------------------------
+* Children process IDs: 12287 12289 12288.
+* Total elapsed time:2664ms
