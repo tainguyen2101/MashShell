@@ -3,8 +3,8 @@
 ## Mash Shell
 
 ### Requirement
-This program must be run on a Linux machine
-You must create a txt test file to test these command
+* This program must be run on a Linux machine
+* You must create a txt test file to test these command
 
 ### Objective 
 The purpose of this assignment is to use the fork, wait, and exec commands to write a simple Linux shell. This shell, called “mash” will **MASH** three Linux command requests together and run them against the same input file in parallel (i.e. at the same time). The user will provide three distinct Linux commands with arguments, and a single filename to operate on. The mash shell will **mash** the requests together executing each command separately against the file.
